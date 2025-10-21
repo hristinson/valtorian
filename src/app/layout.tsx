@@ -1,6 +1,9 @@
 import "./globals.css";
+import clsx from "clsx";
 import Link from "next/link";
 import type { ReactNode } from "react";
+import styles from "./styles/header.module.css";
+// import Logo from "../app/assets/logo.svg";
 
 export const metadata = {
   title: "Valtorian test task",
@@ -11,7 +14,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="min-h-screen bg-gray-100 text-gray-900">
-        <header className="bg-white shadow p-4 flex gap-4">
+        {/* <Logo /> */}
+        <header
+          className={clsx(styles.header, "bg-white shadow p-4 flex gap-4")}
+        >
           <Link href="/" className="text-blue-600 hover:underline">
             Home
           </Link>
