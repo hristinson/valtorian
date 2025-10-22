@@ -8,6 +8,7 @@ interface GradientButtonProps {
   onClick?: () => void;
   icon?: ReactElement;
   costumStyles?: React.CSSProperties;
+  noIcons?: boolean;
 }
 
 const GradientButton: React.FC<GradientButtonProps> = ({
@@ -16,28 +17,33 @@ const GradientButton: React.FC<GradientButtonProps> = ({
   onClick,
   icon,
   costumStyles,
+  noIcons,
 }) => {
   return (
     <button className={styles.button} onClick={onClick} style={costumStyles}>
-      {!icon ? <GreenDot /> : icon}
+      {noIcons ? <></> : !icon ? <GreenDot /> : icon}
       <div className={styles.text}>
         <span>{text}</span>
         <span className={styles.icon}>
-          <svg
-            width="11"
-            height="11"
-            viewBox="0 0 11 11"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.72357 0.749998H9.67853V8.70495M9.1261 1.30242L1.06066 9.36786"
-              stroke="white"
-              strokeWidth="1.5"
-              strokeMiterlimit="10"
-              strokeLinecap="square"
-            />
-          </svg>
+          {noIcons ? (
+            <></>
+          ) : (
+            <svg
+              width="11"
+              height="11"
+              viewBox="0 0 11 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.72357 0.749998H9.67853V8.70495M9.1261 1.30242L1.06066 9.36786"
+                stroke="white"
+                strokeWidth="1.5"
+                strokeMiterlimit="10"
+                strokeLinecap="square"
+              />
+            </svg>
+          )}
         </span>
       </div>
     </button>
