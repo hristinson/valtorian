@@ -4,7 +4,7 @@
   height: 90vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .whiteBackground {
@@ -26,28 +26,23 @@
 }
 
 .image_container {
-  display: flex;
-  align-items: end;
-  justify-content: end;
-  position: relative;
   width: 100%;
 }
 
 .image_container img {
-  height: auto;
+  overflow: visible;
   display: block;
   mask-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 1) 80%,
     rgba(0, 0, 0, 0) 100%
   );
 }
 
 .blackBackground_left {
-  font-size: 65px;
-  color: white;
   min-width: 618px;
   padding-left: 72px;
+  padding-top: 68px;
 }
 
 .blackBackground_container {
