@@ -1,7 +1,7 @@
 .blackBackground {
   background-color: black;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,4 +23,60 @@
 
 .whiteText {
   color: black;
+}
+
+.image_container {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  position: relative;
+  width: 100%;
+}
+
+.image_container img {
+  height: auto;
+  display: block;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.blackBackground_left {
+  font-size: 65px;
+  color: white;
+  min-width: 618px;
+  padding-left: 72px;
+}
+
+.blackBackground_container {
+  display: flex;
+}
+
+.main_text {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-weight: 500;
+  color: white;
+  min-width: 618px;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -6%;
+  word-wrap: pre-line;
+}
+
+.small_text {
+  padding-top: 24px;
+  padding-bottom: 56px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  color: rgba(191, 191, 191, 1);
+  min-width: 618px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -6%;
+  word-wrap: pre-line;
 }

@@ -1,16 +1,13 @@
 .header {
   background-color: black;
   width: 100vw;
-  position: sticky;
+  display: flex;
   top: 0;
-  z-index: 50;
-  padding: 1rem;
-  /* border: 2px solid red; */
+  justify-content: space-between;
 }
 
 .logoContainer {
   height: 96px;
-  /* padding: 72px 38px 131px 38px; */
   padding: 38px 131px 38px 72px;
   display: flex;
   justify-content: center;
@@ -21,4 +18,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.callContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 72px;
 }
