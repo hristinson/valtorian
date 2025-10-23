@@ -16,8 +16,8 @@ const isActive = false;
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen bg-gray-100 text-gray-900">
-        <header className={clsx(styles.header, "bg-white shadow flex gap-4")}>
+      <body className="">
+        <header className={clsx(styles.header)}>
           <div className={styles.logoContainer}>
             <Logo />
           </div>
@@ -34,6 +34,20 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </div>
         </header>
         <main>{children}</main>
+         <footer className="">
+      <div className="">
+        <div className="">
+          <Logo />
+          <span>© {new Date().getFullYear()} Your Company. All rights reserved.</span>
+        </div>
+
+        <div className="flex gap-4 mt-4 sm:mt-0">
+          <a href="/privacy" className="hover:text-gray-900 transition-colors">Privacy Policy</a>
+          <a href="/terms" className="hover:text-gray-900 transition-colors">Terms of Service</a>
+          <a href="/contact" className="hover:text-gray-900 transition-colors">Contact</a>
+        </div>
+      </div>
+    </footer>
       </body>
     </html>
   );

@@ -16,21 +16,17 @@
   background-color: #000000;
   border: 1px solid;
   border-color: rgb(34, 34, 34);
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .header_button.active {
-  background-color: #606060;
-  border-color: transparent;
-  border: 2px solid transparent;
-  border-radius: 8px;
-}
-
-.header_button.active {
+  padding: 10px 20px;
+  font-size: 16px;
   color: white;
-}
-
-.header_button.active:hover::before {
-  background: none;
-  border-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: 
+    linear-gradient(rgb(35, 35, 35), rgb(68, 68, 68)) padding-box,
+    linear-gradient(45deg, #ffffff, #000000, #fcfafb) border-box;
+  cursor: pointer;
 }
