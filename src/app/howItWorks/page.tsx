@@ -75,7 +75,7 @@ export default function HowItWorks() {
             <div>
               More builds{" "}
               <p>
-                We've <span className="text_blue">delivered 70+ </span>builds
+                We`ve <span className="text_blue">delivered 70+ </span>builds
                 across healthcare, finance, industrial, education{" "}
               </p>
               <p>
