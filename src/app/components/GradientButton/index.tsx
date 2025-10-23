@@ -13,7 +13,6 @@ interface GradientButtonProps {
 
 const GradientButton: React.FC<GradientButtonProps> = ({
   text,
-  href,
   onClick,
   icon,
   costumStyles,

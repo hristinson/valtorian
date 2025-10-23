@@ -38,7 +38,12 @@ const HomePage = () => {
             />
           </div>
           <div className={styles.image_container}>
-            <img src="/images/main.png" />
+            <Image
+              src={"/images/main.png"}
+              alt="Example image with badge"
+              width={800}
+              height={460}
+            />
           </div>
         </div>
       </div>

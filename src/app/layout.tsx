@@ -12,8 +12,6 @@ export const metadata = {
   description: "Next.js + Tailwind + App Router project",
 };
 
-const isActive = false;
-
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">

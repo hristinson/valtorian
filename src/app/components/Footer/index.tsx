@@ -30,21 +30,27 @@ export default function Footer() {
           <div className={styles.container}>
             <p className={styles.text}>
               <span>Social</span>
-              <p className={styles.underline}>LinkedIn</p>
-              <p className={styles.underline}>Instagram</p>
-              <p className={styles.underline}>Facebook</p>
-              <p className={styles.underline}>Dribbble</p>
-              <p className={styles.underline}>Behance</p>
+              <span className={styles.underline}>LinkedIn</span>
+              <br />
+              <span className={styles.underline}>Instagram</span>
+              <br />
+              <span className={styles.underline}>Facebook</span>
+              <br />
+              <span className={styles.underline}>Dribbble</span>
+              <br />
+              <span className={styles.underline}>Behance</span>
             </p>
           </div>
           <div className={styles.container}>
             <p className={styles.text}>
               <span>Contacts</span>
-              <p className={styles.underline}>WhatsApp</p>
-              <p className={styles.underline}>Telegram</p>
-              <p className={styles.underline}>
+              <span className={styles.underline}>WhatsApp</span>
+              <br />
+              <span className={styles.underline}>Telegram</span>
+              <br />
+              <span className={styles.underline}>
                 <a href="email: info@valtorian.com">info@valtorian.com</a>
-              </p>
+              </span>
             </p>
           </div>
           <div className={styles.container}>
