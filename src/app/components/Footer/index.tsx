@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerContainer}>
         <div className={styles.up_wrapper}>
-          <div className={styles.main_text}>Let's bring your </div>
+          <div className={styles.main_text}>Let`s bring your </div>
           <div className={styles.main_text}>
             <span className="text_blue">
               ideas to life <RightArrowIcon />
