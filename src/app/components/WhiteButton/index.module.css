@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: rgba(242, 242, 242, 1);
+  border-radius: 24px;
+  height: 28px;
+  padding: 8px;
+}
+
+.text {
+  font-size: 14px;
+  color: rgba(64, 64, 64);
+}

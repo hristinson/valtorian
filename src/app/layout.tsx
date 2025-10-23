@@ -22,8 +22,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </div>
           <div className={styles.buttonsContainer}>
             <HeaderButton text="Home" href="/" />
-            <HeaderButton text="How it works" href="/how_it_works" />
-            <HeaderButton text="Case Studies" href="/case_studies" />
+            <HeaderButton text="How it works" href="/howItWorks" />
+            <HeaderButton text="Case Studies" href="/caseStudies" />
             <HeaderButton text="Reviews" href="/reviews" />
             <HeaderButton text="Blog" href="/blog" />
             <HeaderButton text="Abaut" href="/abaut" />

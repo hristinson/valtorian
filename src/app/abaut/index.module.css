@@ -1,0 +1,62 @@
+.blackBackground {
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: aliceblue;
+}
+
+.whiteBackground {
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.black_backgroundContainer {
+  min-width: 618px;
+  padding-left: 72px;
+  padding-top: 68px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.backgroundContainer {
+  width: 100%;
+  margin-left: 72px;
+  margin-top: 96px;
+  margin-right: 72px;
+}
+
+.main_text_white {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  min-width: 618px;
+  font-size: 64px;
+  line-height: 72px;
+}
+
+.abaut_text {
+  margin-right: 80px;
+  margin-bottom: 80px;
+
+  font-weight: 400;
+
+  font-size: 24px;
+
+  line-height: 32px;
+}
+
+.outcome {
+  display: flex;
+  margin-top: 96px;
+  margin-bottom: 64px;
+  gap: 6px;
+  p {
+    color: #7f9cff;
+  }
+}

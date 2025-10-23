@@ -1,0 +1,143 @@
+.blackBackground {
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: aliceblue;
+}
+
+.whiteBackground {
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.blackBackground_left {
+  min-width: 618px;
+  padding-left: 72px;
+  padding-top: 68px;
+}
+
+.backgroundContainer {
+  width: 100%;
+  margin-left: 72px;
+  margin-top: 96px;
+  margin-right: 72px;
+}
+
+.main_text_black {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  min-width: 618px;
+  font-size: 64px;
+
+  div {
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+.main_text_white {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  min-width: 618px;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -6%;
+  word-wrap: pre-line;
+}
+
+.small_text {
+  padding-top: 24px;
+  padding-bottom: 56px;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  color: rgba(191, 191, 191, 1);
+  min-width: 618px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -6%;
+  word-wrap: pre-line;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.grid_item {
+  margin-top: 64px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  svg {
+    margin-bottom: 16px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #bfbfbf;
+  }
+  li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #bfbfbf;
+    margin-left: 26px;
+  }
+  div {
+    margin-bottom: 8px;
+  }
+}
+
+.grid_more_item {
+  margin-top: 64px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.outcome {
+  display: flex;
+  margin-top: 96px;
+  margin-bottom: 64px;
+  gap: 6px;
+  p {
+    color: #7f9cff;
+  }
+}
+
+.inner_buttons {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 1024px) {
+  .grid_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid_container {
+    grid-template-columns: 1fr;
+  }
+}

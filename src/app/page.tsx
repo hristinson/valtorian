@@ -34,7 +34,11 @@ const HomePage = () => {
             <GradientButton
               icon={<IconFace />}
               text={"Validate My Idea"}
-              costumStyles={{ height: "56px", width: "243px" }}
+              costumStyles={{
+                height: "56px",
+                width: "243px",
+                marginBottom: "140px",
+              }}
             />
           </div>
           <div className={styles.image_container}>
