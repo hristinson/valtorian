@@ -62,6 +62,16 @@ export default function AboutPage() {
               You get: a 2-page PDF <br />
               (assumptions, numbers, sources,
               <br /> CAGR, risks, next steps)
+              <GradientButton
+                noIcons={true}
+                text={"See My Market Size"}
+                costumStyles={{
+                  height: "56px",
+                  width: "243px",
+                  marginTop: "48px",
+                  // marginBottom: "24px",
+                }}
+              />
             </div>
           </div>
           <div className={styles.downContainer}>
