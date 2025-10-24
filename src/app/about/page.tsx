@@ -17,8 +17,8 @@ export default function AboutPage() {
             Why founders <br />
             <div className="text_blue">choose us?</div>
           </div>
-          <div className={styles.abaut_text}>
-            <div className={styles.abaut_text_gradient}>
+          <div className={styles.about_text}>
+            <div className={styles.about_text_gradient}>
               {" "}
               Because we refuse to waste your runway. We start at the kitchen
               table with your users, not in a pitch deck.
@@ -102,7 +102,7 @@ export default function AboutPage() {
               <div className={styles.grid_container}>
                 <div className={styles.grid_item}>
                   <Image
-                    src={"/images/abaut/face_01.png"}
+                    src={"/images/about/face_01.png"}
                     alt=";-)"
                     width={280}
                     height={240}
@@ -110,7 +110,7 @@ export default function AboutPage() {
                 </div>
                 <div className={styles.grid_item}>
                   <Image
-                    src={"/images/abaut/face_02.png"}
+                    src={"/images/about/face_02.png"}
                     alt=";-)"
                     width={280}
                     height={240}
@@ -118,7 +118,7 @@ export default function AboutPage() {
                 </div>
                 <div className={styles.grid_item}>
                   <Image
-                    src={"/images/abaut/face_03.png"}
+                    src={"/images/about/face_03.png"}
                     alt=";-)"
                     width={280}
                     height={240}
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 </div>
                 <div className={styles.grid_item}>
                   <Image
-                    src={"/images/abaut/face_04.png"}
+                    src={"/images/about/face_04.png"}
                     alt=";-)"
                     width={280}
                     height={240}

@@ -56,8 +56,8 @@ export default function PenIcon() {
           y2="16.5885"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0.1" />
+          <stop stopColor="white" />
+          <stop offset="1" stopColor="white" stopOpacity="0.1" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_4_1271"
@@ -67,8 +67,8 @@ export default function PenIcon() {
           y2="18.6332"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" />
-          <stop offset="1" stop-color="#737373" />
+          <stop stopColor="#D9D9D9" />
+          <stop offset="1" stopColor="#737373" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_4_1271"
@@ -78,8 +78,8 @@ export default function PenIcon() {
           y2="18.6332"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" />
-          <stop offset="1" stop-color="#737373" />
+          <stop stopColor="#D9D9D9" />
+          <stop offset="1" stopColor="#737373" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_4_1271"
@@ -89,8 +89,8 @@ export default function PenIcon() {
           y2="18.6332"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#D9D9D9" />
-          <stop offset="1" stop-color="#737373" />
+          <stop stopColor="#D9D9D9" />
+          <stop offset="1" stopColor="#737373" />
         </linearGradient>
       </defs>
     </svg>
